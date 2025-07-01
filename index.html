@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Beast Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico/Adobe Express - file (1).png" type="image/png">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header>
+        <h1>Welcome to Dragon Beast</h1>
+    </header>
+    <!-- Header End -->
+
+    <!-- Product List Start -->
+    <h1>Product List</h1>
+    <div id="product-list">
+
+        <!-- Example Product 1 -->
+        <div class="product">
+            <h2>Bodycon</h2>
+            <img src="8748A9B4-378A-4B23-9E0A-95456C5D8E22.jpeg" alt="Bodycon">
+            <p>Price: $490.00</p>
+            <p>Description: Sleek and figure-hugging, perfect for a night out.</p>
+            <button onclick="addToCart('Bodycon', 490)">Add to Cart</button>
+        </div>
+
+        <!-- Example Product 2 -->
+        <div class="product">
+            <h2>Heels</h2>
+            <img src="Large-8179729QNBS2309_A.jpg" alt="Heels">
+            <p>Price: $680.00</p>
+            <p>Description: Step up your style with these elegant heels.</p>
+            <button onclick="addToCart('Heels', 680)">Add to Cart</button>
+        </div>
+
+        <!-- Example Product 3 -->
+        <div class="product">
+            <h2>Necklace</h2>
+            <img src="necklace .webp" alt="Necklace">
+            <p>Price: $225.00</p>
+            <p>Description: Delicate and elegant, perfect for any outfit.</p>
+            <button onclick="addToCart('Necklace', 225)">Add to Cart</button>
+        </div>
+
+        <!-- Example Product 4 -->
+        <div class="product">
+            <h2>Handbag</h2>
+            <img src="handbag.webp" alt="Handbag">
+            <p>Price: $490.00</p>
+            <p>Description: Perfect blend of fashion and function.</p>
+            <button onclick="addToCart('Handbag', 490)">Add to Cart</button>
+        </div>
+
+    </div>
+    <!-- Product List End -->
+
+    <!-- Mini Cart Start -->
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will appear here dynamically -->
+        </ul>
+        <p id="cart-total">Total: $0.00</p>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+<a href="cart.html" class="view-cart">View Cart</a>
+
+    <!-- Mini Cart End -->
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-section">
+            <h3>About Dragon Beast</h3>
+            <p>Bringing you the latest fashion trends with beast mode energy!</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Information</h3>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="delivery.html">Delivery Information</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Customer Service</h3>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="returns.html">Returns</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Newsletter</h3>
+            <p>Sign up to receive latest news and updates.</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+
+        <p>&copy; 2025 Dragon Beast. All rights reserved.</p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- External JavaScript -->
+    <script src="footer.js"></script>
+
+</body>
+
+</html>
